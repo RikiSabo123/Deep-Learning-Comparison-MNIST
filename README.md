@@ -1,2 +1,19 @@
-# Deep-Learning-Comparison-MNIST
-A comparative study of deep learning models for handwritten digit classification using the MNIST dataset. The project explores the architecture and performance optimization of FNN versus an improved IFNN model
+Deep-Learning-Comparison-MNIST
+מחקר השוואתי של מודלי למידה עמוקה לסיווג ספרות בכתב יד באמצעות דאטה-סט MNIST. הפרויקט בוחן את הארכיטקטורה ואופטימיזציית הביצועים של מודל FNN מול מודל IFNN משופר.
+
+תיאור הפרויקט
+במסגרת הפרויקט ביצעתי השוואה בין ארכיטקטורות של רשתות נוירונים. התמקדתי בתהליך של Model Optimization, התאמת היפר-פרמטרים וניתוח עקומות למידה כדי להשיג דיוק אופטימלי.
+
+תוצאות עיקריות
+הפרויקט מדגים את המעבר ממודל בסיסי (FNN) למודל משופר (IFNN), תוך ניתוח פערי ביצועים וזיהוי תופעות כגון Overfitting בתהליך האימון.
+
+טכנולוגיות בשימוש
+Python
+
+TensorFlow/Keras
+
+Scikit-learn
+
+Matplotlib (לצורך ויזואליזציה)
+
+כעת, ברגע שתעלי את הקובץ הזה יחד עם ה-Notebook שלך, הכל יהיה מוכן ומסודר. בהצלחה עם הגשת הפרויקט!
