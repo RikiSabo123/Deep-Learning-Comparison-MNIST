@@ -30,6 +30,3 @@ pip install -r requirements.txt
 ## License
 MIT
 
----
-
-Questions or suggestions? Open an issue or contact the maintainer.
