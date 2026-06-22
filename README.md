@@ -1,32 +1,80 @@
-# MNIST FNN
+# Deep Learning Comparison on MNIST
 
-A compact, easy-to-read feedforward neural network for classifying handwritten digits from the MNIST dataset. Designed for learning and quick experimentation.
+A PyTorch implementation comparing feedforward neural network architectures for handwritten digit classification on the MNIST dataset.
 
-## Highlights
-- Minimal PyTorch implementation
-- Separate training and evaluation scripts
-- Simple to modify for experiments and teaching
+---
 
-## Requirements
-- Python 3.8+
-- numpy
-- torch
-- torchvision
+## Overview
 
-Install:
+The project demonstrates the implementation, training, and evaluation of neural network models while keeping the code simple and easy to understand.
 
+---
+
+## Features
+
+- PyTorch implementation
+- Training pipeline
+- Evaluation script
+- Model checkpointing
+- Easy experimentation
+
+---
+
+## Tech Stack
+
+- Python
+- PyTorch
+- TorchVision
+- NumPy
+
+---
+
+## Project Structure
+
+```
+model.py
+
+train.py
+
+evaluate.py
+
+requirements.txt
+```
+
+---
+
+## Installation
+
+```bash
 pip install -r requirements.txt
+```
+
+---
 
 ## Usage
-- Train:  python train.py --epochs 10 --batch-size 64
-- Evaluate:  python evaluate.py --model path\\to\\model.pt
 
-## Files
-- model.py — network definition
-- train.py — training loop and checkpointing
-- evaluate.py — evaluation and metrics
-- requirements.txt — dependency list
+Train
+
+```bash
+python train.py --epochs 10 --batch-size 64
+```
+
+Evaluate
+
+```bash
+python evaluate.py --model model.pt
+```
+
+---
+
+## Future Improvements
+
+- CNN comparison
+- Hyperparameter tuning
+- TensorBoard support
+
+---
 
 ## License
-MIT
 
+MIT
